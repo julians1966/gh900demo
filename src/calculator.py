@@ -26,6 +26,9 @@ def exponential(a, b):
     """Return a raised to the power of b."""
     return a ** b
 
+glk;g
+kfjlkgj
+
 # Calculate the percentage of a number
 def percentage(part, whole):    """Return the percentage of part with respect to whole."""
     if whole == 0:
