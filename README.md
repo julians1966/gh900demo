@@ -1,4 +1,4 @@
-# gh-900 demo
+# GH-900 Demo
 
 GH-900 Training — Sample code and processes for GitHub Issues, Pull Requests, and Actions.
 
