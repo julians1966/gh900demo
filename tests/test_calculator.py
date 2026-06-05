@@ -5,7 +5,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
 import pytest
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide, exponential
 
 
 def test_add():
@@ -35,3 +35,9 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError, match="Cannot divide by zero"):
         divide(1, 0)
+
+
+def test_exponential():
+    assert exponential(2, 3) == 8
+    assert exponential(5, 0) == 1
+    assert exponential(9, 0.5) == 3.0

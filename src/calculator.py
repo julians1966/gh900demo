@@ -25,3 +25,14 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+
+def exponential(a, b):
+    """Return a raised to the power of b."""
+    return a ** b
+
+# Cacukate the percentage of a number
+def percentage(part, whole):    """Return the percentage of part with respect to whole."""
+    if whole == 0:
+        raise ValueError("Whole cannot be zero")
+    return (part / whole) * 100 
