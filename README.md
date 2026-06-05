@@ -1,2 +1,3 @@
-# gh900demo
-GH-900 Training
+# GH 900 demo repo
+
+GH-900 Training demos 
