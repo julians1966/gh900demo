@@ -2,6 +2,8 @@
 
 GH-900 Training — Sample code and processes for GitHub Issues, Pull Requests, and Actions.
 
+This is a change in VS Code
+
 ## Overview
 
 This repository demonstrates common GitHub workflows including:
