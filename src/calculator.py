@@ -1,20 +1,16 @@
 """Simple calculator module used as a sample application for the gh900demo repository."""
 
-
 def add(a, b):
     """Return the sum of a and b."""
     return a + b
-
 
 def subtract(a, b):
     """Return the difference of a and b."""
     return a - b
 
-
 def multiply(a, b):
     """Return the product of a and b."""
     return a * b
-
 
 def divide(a, b):
     """Return the quotient of a divided by b.
@@ -26,13 +22,14 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
-
 def exponential(a, b):
     """Return a raised to the power of b."""
     return a ** b
 
-# Cacukate the percentage of a number
-def percentage(part, whole):    """Return the percentage of part with respect to whole."""
+
+# Calculate the percentage of a number
+def percentage(part, whole):
+    """Return the percentage of part with respect to whole."""
     if whole == 0:
         raise ValueError("Whole cannot be zero")
-    return (part / whole) * 100 
+    return (part / whole) * 100
