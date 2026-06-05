@@ -28,7 +28,8 @@ def exponential(a, b):
 
 
 # Calculate the percentage of a number
-def percentage(part, whole):    """Return the percentage of part with respect to whole."""
+def percentage(part, whole):
+    """Return the percentage of part with respect to whole."""
     if whole == 0:
         raise ValueError("Whole cannot be zero")
-    return (part / whole) * 100 
+    return (part / whole) * 100
